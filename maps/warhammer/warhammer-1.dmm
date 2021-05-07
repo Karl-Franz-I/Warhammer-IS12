@@ -800,7 +800,7 @@
 "Gy" = (/obj/structure/torchwall{dir = 4; icon_state = "torchwall0"},/obj/effect/floor_decal/newcorner/grey/solid,/obj/effect/floor_decal/turf/rectangles/two,/turf/simulated/floor/tiled{color = "grey"; icon_state = "dark1"},/area/cadiaoutpost/oa/service/chapel)
 "HR" = (/obj/machinery/door/airlock/glass_medical,/obj/effect/floor_decal/newcorner/blue/solid,/obj/effect/floor_decal/newcorner/blue/solid,/turf/simulated/floor/tiled/dark{icon_state = "white1"},/area/cadiaoutpost/oa/medicae)
 "IH" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"; pixel_y = 0},/obj/effect/floor_decal/newcorner/grey/solid,/obj/effect/floor_decal/turf/checkers,/obj/effect/floor_decal/turf/checkers,/mob/living/simple_animal/hostile/retaliate/rat,/turf/simulated/floor/stone,/area/cadiaoutpost/oa/hallway/centralhall)
-"Mk" = (/obj/structure/table/gamblingtable,/obj/item/gun/energy/las/laspistol,/obj/item/reagent_containers/food/snacks/skewered_rat_meat,/obj/item/reagent_containers/food/snacks/skewered_rat_meat,/turf/simulated/floor/lino,/area/cadiaoutpost/oa/service/inn)
+"Mk" = (/obj/structure/table/gamblingtable,/obj/item/gun/energy/las/lasgun/laspistol,/obj/item/reagent_containers/food/snacks/skewered_rat_meat,/obj/item/reagent_containers/food/snacks/skewered_rat_meat,/turf/simulated/floor/lino,/area/cadiaoutpost/oa/service/inn)
 "NT" = (/obj/effect/floor_decal/newcorner/grey/solid,/obj/effect/floor_decal/turf/checkers,/turf/simulated/floor/tiled/dark,/area/cadiaoutpost/oa/hallway/centralhall)
 "Oa" = (/obj/effect/floor_decal/newcorner/blue/solid,/obj/effect/floor_decal/newcorner/blue/solid,/turf/simulated/floor/tiled/dark{icon_state = "white1"},/area/cadiaoutpost/oa/medicae)
 "Oz" = (/turf/simulated/floor/stone,/area/cadiaoutpost/gma/underground)
