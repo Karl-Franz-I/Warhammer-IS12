@@ -303,7 +303,7 @@ obj/item/gun/energy/retro
 		list(mode_name="automatic",   	 burst=1, fire_delay=0.5,  move_delay=null, one_hand_penalty=2, burst_accuracy=null, dispersion=list(0.2), automatic = 0.1),
 		)
 
-/obj/item/gun/energy/las/laspistol
+/obj/item/gun/energy/las/lasgun/laspistol
 	name = "laspistol"
 	desc = "The standard-issue rifle of the Astra Militarum as well as one of the most common weapons found in the Imperium of Man."
 	icon_state = "laspistol"
