@@ -325,7 +325,7 @@
 			playsound(usr, 'sound/effects/beam.ogg', 50, 0, -1)
 			sleep(40)
 			var/obj/effect/landmark/cargospawn/T = locate() //where dey spawning
-			new /obj/item/gun/energy/las/laspistol(T.loc) //what they spawning
+			new /obj/item/gun/energy/las/lasgun/laspistol(T.loc) //what they spawning
 			src.buying = 0
 	if (href_list["lasmag"])
 		if(GLOB.thrones < 3) //do we got enough shekels?
