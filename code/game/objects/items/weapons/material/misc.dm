@@ -95,13 +95,7 @@
 	icon = 'icons/obj/weapons/melee/misc.dmi'
 	icon_state = "sabre"
 	item_state = "sabre"
-	attack_verb = list("stabbed", "chopped", "cut", "sliced")
-	force = 16
-	sharp = 1
-	edge = 1
-	w_class = ITEM_SIZE_NORMAL
-	origin_tech = list(TECH_MATERIAL = 2, TECH_COMBAT = 2)
-	slot_flags = SLOT_BELT
+	force = 15
 
 /obj/item/material/sword/choppa
 	name = "choppa"
