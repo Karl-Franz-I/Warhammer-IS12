@@ -39,7 +39,7 @@
 	//storage_slots = 1
 	max_storage_space = 1
 	can_hold = list(
-		////obj/item/material/sword/sabre
+		/////obj/item/material/sword/commissword/sabre
 		)
 	update_icon()
 

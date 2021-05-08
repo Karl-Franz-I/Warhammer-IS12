@@ -89,6 +89,20 @@
 	origin_tech = list(TECH_MATERIAL = 2, TECH_COMBAT = 2)
 	slot_flags = SLOT_BELT
 
+/obj/item/material/sword/commissword/sabre
+	name = "Sabre"
+	desc = "A well crafted sabre. Looks sharp."
+	icon = 'icons/obj/weapons/melee/misc.dmi'
+	icon_state = "sabre"
+	item_state = "sabre"
+	attack_verb = list("stabbed", "chopped", "cut", "sliced")
+	force = 16
+	sharp = 1
+	edge = 1
+	w_class = ITEM_SIZE_NORMAL
+	origin_tech = list(TECH_MATERIAL = 2, TECH_COMBAT = 2)
+	slot_flags = SLOT_BELT
+
 /obj/item/material/sword/choppa
 	name = "choppa"
 	desc = "Fixed out of a rusted sheet of metal, this choppa looks too big to be a sword. More like a piece of iron."
