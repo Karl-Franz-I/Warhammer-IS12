@@ -52,11 +52,7 @@
 		dat += "<B> Weaponry:</B><BR>"
 		dat += "<A href='byond://?src=\ref[src];lasgun=1'>Las Rifle (10)</A><BR>"
 		dat += "<A href='byond://?src=\ref[src];lascarb=1'>Las Carbine (15)</A><BR>"
-<<<<<<< HEAD
-		dat += "<A href='byond://?src=\ref[src];laspistol=1'>Las Pistol (8)</A><BR>"
-=======
 		dat += "<A href='byond://?src=\ref[src];laspistol=1'>Las Pistol (6)</A><BR>"
->>>>>>> patch-1
 		dat += "<A href='byond://?src=\ref[src];mcsword=1'>Mercy Chainsword (20)</A><BR>"
 		dat += "<A href='byond://?src=\ref[src];stubber=1'>Auto Stubber (25)</A><BR>"
 		dat += "<A href='byond://?src=\ref[src];bolter=1'>Bolt Pistol (35)</A><BR>"
