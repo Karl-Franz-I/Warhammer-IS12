@@ -29,6 +29,19 @@
 		for(var/obj/item/I in contents)
 			ret.overlays += image("icon" = 'icons/mob/onmob/belt.dmi', "icon_state" = "[I.item_state ? I.item_state : I.icon_state]")
 	return ret
+	
+/obj/item/storage/belt/sheathe
+	name = "Sabre Belt"
+	desc = "A lightweight metal sheathe made for a sabre."
+	icon = 'icons/obj/weapons/melee/misc.dmi'
+	icon_state = "sabre_sheath0"
+	item_state = "sabre_sheath0"
+	//storage_slots = 1
+	max_storage_space = 1
+	can_hold = list(
+		////obj/item/material/sword/sabre
+		)
+	update_icon()
 
 /obj/item/storage/belt/utility
 	name = "tool-belt"
