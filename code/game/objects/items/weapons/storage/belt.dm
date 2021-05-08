@@ -37,7 +37,7 @@
 	icon_state = "sabre_sheath0"
 	item_state = "sabre_sheath0"
 	//storage_slots = 1
-	max_storage_space = 1
+	max_storage_space = 5
 	can_hold = list(
 		/////obj/item/material/sword/commissword/sabre
 		)
