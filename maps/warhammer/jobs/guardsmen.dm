@@ -71,7 +71,7 @@
 		H.verbs += /mob/living/carbon/human/proc/morale_boost
 		H.set_trait(new/datum/trait/death_tolerant())
 		H.add_stats(rand(12,17), rand(10,16), rand(10,14), rand(10,13))
-		H.add_skills(rand(13,16))
+		H.add_skills(rand(7,10),rand(8,10),rand(0,3),0,0)
 		H.assign_random_quirk()
 		H.warfare_language_shit(LANGUAGE_LOW_GOTHIC )
 		H.get_idcard()?.access = list(access_security, access_sec_doors, access_brig, access_forensics_lockers, access_all_personal_lockers, access_maint_tunnels, access_guard_armory)
@@ -438,6 +438,19 @@ Begin Warhammer loadouts
 	l_ear = /obj/item/device/radio/headset/blue_team/all
 	belt = /obj/item/device/flashlight/lantern
 	l_pocket = /obj/item/storage/box/ifak
+	id = null
+	id_slot = null
+	pda_slot = null
+
+//Genestealer//
+/decl/hierarchy/outfit/job/genestealer //really just for walking sounds
+	uniform = null
+	shoes = /obj/item/clothing/shoes/genestealerfeet
+	neck = null
+	back = null
+	l_ear = /obj/item/device/radio/headset/hivemind
+	belt = null
+	l_pocket = null
 	id = null
 	id_slot = null
 	pda_slot = null
