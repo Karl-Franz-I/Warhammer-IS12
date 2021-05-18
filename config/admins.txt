@@ -5,6 +5,7 @@
 # Ranks can be anything defined in admin_ranks.txt           ~Carn   #
 ######################################################################
 
+EchoCassius - Host
 Daelso - Host
 Apple5382 - SeniorAdmin
 Conzie - SeniorAdmin
