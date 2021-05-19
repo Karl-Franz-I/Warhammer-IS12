@@ -306,42 +306,6 @@ obj/item/gun/energy/retro
 		list(mode_name="automatic",   	 burst=1, fire_delay=0.5,  move_delay=null, one_hand_penalty=2, burst_accuracy=null, dispersion=list(0.2), automatic = 0.1),
 		)
 
-/obj/item/gun/energy/las/lasgun/longlas
-	name = "Longlas"
-	desc = "An expensive sniper variant of the typical lasgun."
-	icon_state = "longlas"
-	item_state = "longlas"
-	slot_flags = SLOT_BACK|SLOT_S_STORE
-	w_class = ITEM_SIZE_LARGE
-	force = 10
-	one_hand_penalty = 20
-	accuracy = -2
-	scoped_accuracy = 5
-	origin_tech = list(TECH_COMBAT = 3, TECH_MAGNET = 2)
-	matter = list(DEFAULT_WALL_MATERIAL = 2000)
-	projectile_type = /obj/item/projectile/energy/las/lasgun/longlas
-	charge_cost = 300
-	cell_type = /obj/item/cell/lasgun
-	ammoType = /obj/item/cell/lasgun
-	wielded_item_state = "longlas-wielded"
-
-	firemodes = list(
-		list(mode_name="semiauto",       burst=1, fire_delay=0,    move_delay=null, one_hand_penalty=20, burst_accuracy=null, dispersion=null, automatic = 0),
-		)
-
-/obj/item/gun/energy/las/lasgun/longlas/verb/scope()
-	set category = "Object"
-	set name = "Use Scope"
-	set popup_menu = 1
-
-	toggle_scope(usr, 2)
-
-
-/obj/item/gun/energy/las/lasgun/longlas/equipped(mob/user)
-	..()
-	if(user.zoomed)
-		user.do_zoom()
-
 /obj/item/gun/energy/las/lasgun/laspistol
 	name = "laspistol"
 	desc = "The standard-issue sidearm of the Astra Militarum."
