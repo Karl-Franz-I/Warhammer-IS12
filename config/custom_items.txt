@@ -40,11 +40,13 @@
 # }
 #
 # {
-# ckey: EchoCassius
+# ckey: echocassius
 # character_name: Daniel Rook
-# item_path: /obj/item/material/sword/commissword/sabre
-# item_name: Noble Sabre
-# item_icon: sabre    
-# item_desc: It's truly a fine piece of steel.
+# item_path: /obj/item/ingots/adamantiumingot
+# item_name: adamantium ingot
+# item_icon: adamantine_ingot    
+# item_desc: It's truly a fine piece of metal.
+# req_titles: Rogue Trader
+# req_access: 1
 # }
 ##
